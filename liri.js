@@ -116,9 +116,9 @@ let liri = {
             });
 
             
-            liri.command = command.trim();
-            liri.param = param.trim();
-            logData = "do-what-it-says | "+liri.command+" | "+liri.param;
+            //liri.command = command.trim();
+            //liri.param = param.trim();
+            logData = "do-what-it-says | "+command+" | "+param;
             liri.logger(logData);
             liri.liriActions(command, param);
 
